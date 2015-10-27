@@ -16,7 +16,7 @@
 ```
 と書かれている下に
 ```
-var helloWorld = "Hello World!";
+return "Hello "+name+"!";
 ```
 と入力してみましょう。
 
@@ -28,8 +28,18 @@ hello.jsにチェックが入っていることを確認して、ファイルを
 
 少々時間がかかりますが、最後に
 ```
+codecheck: Finish 'npm install with code 0
+1..1
+ok 1 helloWorld Hello World!
+# tests 1
+# pass 1
+# fail 0
+codecheck: Finish with code 0
+codecheck: tests  : 1
+codecheck: success: 1
+codecheck: failure: 0
 ```
-と表示されれば問題なく実行されている事になります。
+と表示されれば問題なく実行されており、テストケース1つに対して、正しく回答ができている事になります。
 
 ### 4. ファイルの保存
 編集が完了したら、改めて画面右上の"Save"ボタンをクリックしましょう。  

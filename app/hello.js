@@ -1,9 +1,9 @@
-function helloWorld() {
-  //ここにHelloworldを実装します。
+function hello(name) {
+  //ここにnameに"World"が入力された時、この関数が"Hello World!"と返すような実装をします。
   //BEGIN_CHALLENGE
-  var helloWorld = "Hello World!";
+  return "Hello "+name+"!";
   //END_CHALLENGE
-  return helloWorld;
+  return "Hello World!";
 }
 
-module.exports = helloWorld;
+module.exports = hello;
