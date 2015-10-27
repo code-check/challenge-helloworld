@@ -21,7 +21,11 @@ app/hello.js
 ```
 //ここにHelloworldを実装します。
 ```
-と書かれている下のコメントアウトを外して
+と書かれている下の行のコメントアウトを外して
+```
+//return "Hello World";
+```
+から
 ```
 return "Hello World";
 ```
