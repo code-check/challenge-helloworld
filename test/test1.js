@@ -4,4 +4,7 @@ describe("helloWorld", function() {
   it("Hello World!", function() {
     assert.equal(hello("World"), "Hello World!");
   });
+  it("Hello codecheck!", function() {
+    assert.equal(hello("codecheck"), "Hello codecheck!");
+  });
 });
