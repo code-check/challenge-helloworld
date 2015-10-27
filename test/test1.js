@@ -1,7 +1,7 @@
 var assert = require("chai").assert;
 var helloWorld  = require("../app/hello.js");
-describe("helloWorld", function() {
-  it("Hello World!", function() {
-    assert.notOk(helloWorld());
+describe("HelloWorld", function() {
+  it('helloWorld() == "Hello World!"', function() {
+    assert.equal(helloWorld(), "Hello World!");
   });
 });
