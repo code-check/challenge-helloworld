@@ -4,7 +4,7 @@ function hello(name) {
 * nameが"codecheck"の場合には、"Hello codecheck!"が返されます。
 */
 
-  //return "Hello World!"
+  //return "Hello World!";
   //BEGIN_CHALLENGE
   return "Hello "+name+"!";
   //END_CHALLENGE
