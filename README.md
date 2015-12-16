@@ -14,7 +14,7 @@
 app/hello.js
 ```
 を再度クリックしてください。  
-  
+
 [hello.js](app/hello.js)  
 のファイルが開かれます。
 

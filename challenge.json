@@ -1,4 +1,5 @@
 {
+  "markdownTest": ["markdown-test.md"],
   "editable": [
     "app/*"
   ],
