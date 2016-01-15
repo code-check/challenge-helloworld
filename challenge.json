@@ -1,11 +1,5 @@
 {
   "markdownTest": ["app/markdown-test.md"],
-  "editable": [
-    "app/*"
-  ],
-  "excludes": [
-    ".gitignore",
-    "challenge.json"
-  ],
-  "test": "mocha"
+  "allowRunTest": false,
+  "allowNewFile": false
 }
