@@ -1,4 +1,7 @@
 {
+  "editable": [
+    "app/*"
+  ],
   "markdownTest": ["app/markdown-test.md"],
   "allowRunTest": false,
   "allowNewFile": false
