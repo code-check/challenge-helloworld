@@ -2,7 +2,7 @@
 ## codecheckで選択式問題を回答してみよう
 ### 1. ファイルの移動
 こちらのリンクをクリックしてください。  
-[markdown-test.md](app/markdown-test.md)  
+[markdown-test.md](markdown-test.md)  
 
 画面中央に、問題文とチェックボックスが表示されると思います。  
 マークダウン形式テストでは、このような形でビューアーに問題が表示されます。  

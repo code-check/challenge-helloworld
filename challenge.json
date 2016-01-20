@@ -6,6 +6,7 @@
     ".gitignore",
     "*.json"
   ],
+  "main": "markdown-test.md",
   "markdownTest": ["markdown-test.md"],
   "allowRunTest": false,
   "allowNewFile": false
