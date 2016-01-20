@@ -1,8 +1,12 @@
 {
   "editable": [
-    "app/*"
+    "markdown-test.md"
   ],
-  "markdownTest": ["app/markdown-test.md"],
+  "excludes": [
+    ".gitignore",
+    "*.json"
+  ],
+  "markdownTest": ["markdown-test.md"],
   "allowRunTest": false,
   "allowNewFile": false
 }
