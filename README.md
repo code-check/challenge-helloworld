@@ -51,7 +51,7 @@ ok 1 helloWorld Hello World!
 # tests 2
 # pass 1
 # fail 1
-codecheck: Finish with code 0
+codecheck: Finish with code 1
 codecheck: tests  : 2
 codecheck: success: 1
 codecheck: failure: 1
