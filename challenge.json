@@ -1,6 +1,7 @@
 {
   "editable": [
-    "app/*"
+    "app/*",
+    "answer.md"
   ],
   "excludes": [
     ".gitignore",
