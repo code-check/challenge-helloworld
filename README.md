@@ -94,7 +94,7 @@ codecheck: failure: 0
 表示されているダイアログから、"Back"ボタンをクリックして、チャレンジの詳細画面に戻ってください。  
 "Webエディタで開く"ボタンの上に、"保存 on [保存された時間]"が表示されていれば正しく保存ができていることになります。
 
-## 3.GitHubを使って解答してみよう
+## 3.GitHubを使って解答してみよう（※GitHubユーザ向け）
 ### 3-1.GitHubアカウントの連携
 まず、GitHubを活用して回答をする場合、codecheck内でGitHubアカウントの連携が必要です。  
 [こちらのページ](https://app.code-check.io/settings/social)から、GitHubアカウントの連携をおこないます。
