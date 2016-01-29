@@ -2,7 +2,7 @@
 ## 1.Solve "Helloworld" on codecheck
 Learn how to use codecheck by taking this tutorial!
 
-### 1-1.  Watch out for the "Deadline" an "Time Limit"!
+### 1-1.  Watch out for the "Deadline" and "Time Limit"!
 After opening a challenge, you will see the detail page of the challenge.
 On the detail page you will see the deadline and time limit.
 Keep in mind that you cannot submit your answer after the time expires!
