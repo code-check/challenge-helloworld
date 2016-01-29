@@ -101,7 +101,7 @@ Reload the challenge page after it is completed.
 Now you can select "Fork to GitHub".
 
 ### 3-2. Fork to GitHub
-Click the "Fork to GitHub" button.
+Click the "Fork to GitHub" button.  
 ![image21](images/s21.png)  
 Enter the name of the repository and click "Create".
 You can jump to the repository by clicking the link that appears on the dialog.
