@@ -6,5 +6,9 @@
     ".gitignore",
     "challenge.json"
   ],
+  "tags": [
+    "javascript",
+    "mocha"
+  ],
   "test": "mocha"
 }
