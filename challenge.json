@@ -10,5 +10,10 @@
     "javascript",
     "mocha"
   ],
-  "test": "mocha"
+  "test": "mocha",
+  "tags": [
+    "JavaScript",
+    "Node.js",
+    "Tutorial"
+  ]
 }
