@@ -1,40 +1,34 @@
 # Hello World
-## 1.Try to solve "Helloworld" on codecheck
-You are in an Open Challenge as tutorial.
-You can learn how to use codecheck through taking this tutorial challenge.
+## 1.Solve "Helloworld" on codecheck
+Learn how to use codecheck by taking this tutorial!
 
-### 1-1.  Make sure "Deadline" and "Time Limit"
-After opening a challenge, you can see the detail of the challenge like this.  
-And you can see that the Deadline or Time limit is displayed on this page.  
-Please keep in mind that you can not submit your answer after the time is over.
+### 1-1.  Watch out for the "Deadline" and "Time Limit"!
+After opening a challenge, you will see the detail page of the challenge.
+On the detail page you will see the deadline and time limit.
+Keep in mind that you cannot submit your answer after the time expires!
 
-### 1-2. Choose the way to solve (Web editor or GitHub)
-You can solve an open challenge in our dedicated Web editor or GitHub.  
-First of all, **let's click "Open Web Editor" button and open it.**
+### 1-2. Pick your weapon (Web Editor or GitHub)
+Choose to solve the challenge in either our dedicated Web Editor or using the GitHub integration.
+Let's begin.
 
-## 2. Solve Challenge in Web Editor
-- Please proceed to the next step from the Web editor.
+## 2. Solve in Web Editor
+Click "Open Web Editor" and proceed in the Web Editor.
 
-### 2-1. Select a file
-Click below link.  
+### 2-1. Open Files
+Click the link below.  
 [test1.js](test/test1.js)  
-Please make sure the file which you clicked is opened on this editor.
-You can display a specified file by clicking the link in this way.  
-And you can also select a file from the project tree on the left side of the editor.
+Make sure the file you clicked is open in the editor.
+You can open specified files by clicking on their link or you can open a file from the project tree on the left menu of the editor.
 
-Click
-```
-app/hello.js
-```
-from the project tree.  
+Open ``` app/hello.js ``` from the project tree.  
 
 [hello.js](app/hello.js)  
-would show up on here.
+should show up in the editor.
 
-### 2-2. Edit a file
-Let's try to edit a file!  
+### 2-2. Edit Files
+Let's edit a file!  
 
-Edit from
+Edit
 ```
 //return "Hello World";
 ```
@@ -42,19 +36,19 @@ to
 ```
 return "Hello World";
 ```
-by removing a comment out.
+by removing the comments `//`. 
 
-### 2-3. Save files
-We need to save edited files in order to run a test code.
-Click the save button after you made sure that "app/hello.js" has been checked.
-Then, Select "continue" button to keep editing in here.
+### 2-3. Save Files
+You need to save the edited files in order to run the test code.
+Click the "Save" button after you have made sure that ```app/hello.js``` has been checked.
+Click "Continue" in the pop-up to continue editing in the editor.
 
-### 2-4. Run a project
-You can run an Unit test to verify that you solve a challenge correctly. 。
-Let's click the "RUN” button in the middle of this editor.
-It would start running a test.  
-At the end, you can see the result of the test like below
+### 2-4. Running a Project
+You can run a unit test to verify that you have solved the challenge correctly.
+Click the "RUN" button in the middle of the editor to start running the test.
+You should see the result of the test displayed on the console.
 
+For example:
 ```
 codecheck: Finish 'npm install with code 0
 1..2
@@ -67,15 +61,14 @@ codecheck: tests  : 2
 codecheck: success: 1
 codecheck: failure: 1
 ```
+This means that you have been able to solve 1 out of the 2 tests.
 
-It means that you have been able to solve 1 of the 2 test in this case.
-
-### 2-6. Solve perfectly
-It is not perfectly solved so far.  
-Rewrite the previous code to pass  
+### 2-6. Solve the Challenge
+Currently the challenge is not solved correctly. 
+Rewrite the previous code for it to pass  
 [test1.js](test/test1.js)  
 
-You can see like below if you can solve perfectly.
+If solved correctly, running the project should display the result as shown below:
 
 ```
 codecheck: Finish 'npm install with code 0
@@ -90,53 +83,50 @@ codecheck: success: 2
 codecheck: failure: 0
 ```
 
-Thus codecheck can support you to practice implementing features which is satisfied the requirements while reading some test codes.
+Codecheck can support you in practicing to implement features, which satisfies the requirements while reading some test codes.
 
-### 2-7. Confirm edited files has been saved
-Click "save" button again after you finish editing a file.
-And go back to the challenge detail page by clicking "Back" button.
+### 2-7. Confirm Saved Files
+Click the "Save" button again after you finish editing any files.
+Go back to the challenge detail page by clicking the "Back" button.
 
-It have saved correctly if "Saved [time]" is appeared on the "Open Web Editor" button.
+If your project is saved correctly "Saved [time]" will appeared on the "Open Web Editor" button.
 
-## 3.Solve in GitHub (For GitHub user)
-### 3-1.Authenticate with GitHub
-You need to authenticate with your GitHub account
-First, you need to authenticate with your GitHub account to codecheck for solving a  challenge in GitHub.  
-Proceed to [this page](https://app.code-check.io/settings/social) and Click "connect" to authenticate your GitHub account.
+## 3.Solve in GitHub (For GitHub users)
+### 3-1. Authenticate with GitHub
+To begin, you need to authenticate codecheck with your GitHub account before solving a challenge in GitHub.  
+Proceed to [this page](https://app.code-check.io/settings/social) and click "Connect" to authenticate your GitHub account.
 ![image20](images/s20.png)  
 
-Reload this page after it is completed.
-You can select "Fork to GitHub" button if you can authenticate.
+Reload the challenge page after it is completed.
+Now you can select "Fork to GitHub".
 
-### 3-2.Fork a challenge to your GitHub
-Click "Fork to GitHub" button.
+### 3-2. Fork to GitHub
+Click the "Fork to GitHub" button.  
 ![image21](images/s21.png)  
-Enter the name of repository and cilck "Create" button.  
-You can jump to the repository which is generated by clicking the link appeared on the dialog.
+Enter the name of the repository and click "Create".
+You can jump to the repository by clicking the link that appears on the dialog.
 
 ### 3-4. Edit answer.md
-You can edit the answer by using an editor, environment which you like if you clone the repository to your localhost in the same way of  GitHub.  
+Clone the repository to your localhost by using Git to edit your solution using your preferred editor/environment.
 
-Let's edit [answer.md] as trial.  
-You can arrange originality, ingenuity, and what you want to appeal by writing on [answer.md](answer.md)  
-Try to answer the question written in the comment out in answer.md.
+Let's edit [answer.md] .
+Show your originality and ingenuity by explaining your solution on [answer.md](answer.md)  
+Try to answer the questions written in the comment in answer.md.
 
-### 3-5. Save the answer
-Save the repository to codecheck.  
-All you have to do is just push it to remote master.
+### 3-5. Save your answer
+Save your repository to codecheck by pushing it to remote master.
 
 Go back to the challenge detail page and check "Saved [time]".
-It would be updated the time which you submitted at.  
+It should be updated with the submitted time.
 
-### 3-6. Confirm from web editor
-Once you've saved the answer, Let's check the answer in Web editor again.  
-Please try to open Web editor screen again. (Or reload if you've already opened.)  
-Click [answer.md](answer.md) from web editor.  
-You can make sure that the answer can be updated and the save button became disable.  
-**Please be careful that once you start editing in GitHub, you can't edit and save the file from the web editor.**
+### 3-6. Confirm in Web Editor
+Once you have saved your answer, open the Web Editor to check if it has been properly saved.
+Open [answer.md](answer.md) from the Web Editor.
+Confirm that the answer is updated by checking to see if the "Save" button becomes disabled.
+**Keep in mind that once you start editing in GitHub, you can't edit and save the file from the Web Editor.**
 
-Finally, click RUN button.  
-It means that you could solve challenge all correctly if you can see below result of the test.
+Click the "RUN" button.
+If the result is the same as below, this means you solved the challenge correctly.
 
 ```
 codecheck: Finish 'npm install with code 0
@@ -150,27 +140,27 @@ codecheck: tests  : 2
 codecheck: success: 2
 codecheck: failure: 0
 ```
-In this way, you can check the answer by running test codes in the web editor even if you've started solving with GitHub.
+This way, you can check your answer by running test codes in the web editor, even if you are solving it with GitHub.
 
 
-## 4. Submit challenge
+## 4. Submit Challenge
 ### 4-1. Submit challenge
-Please go back to the challenge detail page, and click "submit" button.  
-Please be careful that you couldn't edit anything after once you have submitted.
+Go back to the challenge detail page and click the "Submit" button.  
+Keep in mind that you can no longer edit the files once you have submitted the challenge.
 
 
 ### 4-2. Display answer.md and Comment
-Please make sure the answer.md is displayed on the page.  
+Make sure answer.md is displayed on the page.  
 You can express your developer skills with
-- the project that submitted by you
-- answer.md that edited by you  
+- the project that you submit and
+- answer.md that you edit 
 in codecheck.
 
-And you can use comment feature to ask someone, to post supplementary information.
+Post comments to interact with other users!
 
 ### 4-3. LGTM！
-"LGTM" stands for Looks Good To Me.  
-You can post LGTM for answers which submitted by others.  
-Find good answer from participants list, (click "Back to Participants")
-And Try to add LGTM.  
-(※ We are considering about the next LGTM feature.)
+"LGTM" stands for `Looks Good To Me`.  
+Browse other people's answers by searching the participants list (click "Back to Participants").
+Add LGTMs for answers you like!
+
+(※ We are considering new LGTM features.)
