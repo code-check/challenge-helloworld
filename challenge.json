@@ -1,15 +1,24 @@
 {
   "editable": [
-    "app/*"
+    "app/*",
+    "src/*"
+    ".gitignore",
+    "package.json",
+    "codecheck.yml",
+    "answer.md"
   ],
   "excludes": [
-    ".gitignore",
     "challenge.json"
   ],
+  "cli": [
+    "nodejs",
+    "ruby",
+    "Java",
+    "python",
+    "python3",
+    "C#"
+  ],
+  "allowNewFile": true,
   "test": "mocha",
-  "tags": [
-    "JavaScript",
-    "Node.js",
-    "Tutorial"
-  ]
+  "tags": [ "Tutorial" ]
 }

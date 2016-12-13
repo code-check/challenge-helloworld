@@ -1,10 +1,22 @@
-var assert = require("chai").assert;
-var hello  = require("../app/hello.js");
+"use strict";
+const assert = require("chai").assert;
+const codecheck = require("codecheck");
+const app = codecheck.consoleApp(process.env.APP_COMMAND);
+
 describe("helloWorld", function() {
   it("Hello World!", function() {
-    assert.equal(hello("World"), "Hello World!");
+    return app.run("World").spread(function(code, stdOut){
+      assert.equal(code, 0);
+      assert.equal(stdOut.length, 1);
+      assert.equal(stdOut[0], "Hello World!");
+    });
   });
+
   it("Hello codecheck!", function() {
-    assert.equal(hello("codecheck"), "Hello codecheck!");
+    return app.run("codecheck").spread(function(code, stdOut){
+      assert.equal(code, 0);
+      assert.equal(stdOut.length, 1);
+      assert.equal(stdOut[0], "Hello codecheck!");
+    });
   });
 });
