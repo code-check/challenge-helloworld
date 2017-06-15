@@ -15,10 +15,6 @@
     "*secret*",
     "challenge.json"
   ],
-  "readme": {
-    "ja": "README.md",
-    "en": "README_en.md"
-  },
   "cli": [
     "C/C++",
     "C#",
