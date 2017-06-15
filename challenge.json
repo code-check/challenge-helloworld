@@ -9,7 +9,8 @@
     "main.*",
     "INSPECTION*",
     ".github/*",
-    "*eslint*"
+    "*eslint*",
+    "images/nonessential*"
   ],
   "excludes": [
     "*secret*",
