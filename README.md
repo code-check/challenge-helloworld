@@ -102,17 +102,17 @@ codecheck: failure: 0
 ### 3-1.GitHubアカウントの連携
 まず、GitHubを活用して回答をする場合、codecheck内でGitHubアカウントの連携が必要です。  
 [こちらのページ](https://app.code-check.io/settings/social)から、GitHubアカウントの連携をおこないます。  
-![ソーシャルアカウントの連携画面](images/s16_github_integration_2.png)  
+![ソーシャルアカウントの連携画面](images/github_integration_2.png)  
 こちらの「接続」をクリックし、GitHubのアカウントの連携をしてください。
 アカウントの連携が完了しましたら、再度こちらの画面をリロードしてください。  
 正しく接続が完了すると、"GitHubで解く"ボタンが選択できるようになります。
 
 ### 3-2.チャレンジをフォークしてみましょう
 画面右側の"GitHubで解く"をクリックしてみましょう。
-![チャレンジのフォーク画面](images/s18_fork_repo_modal_empty.png)  
+![チャレンジのフォーク画面](images/fork_repo_modal_empty.png)  
 上記のダイアログが立ち上がったら、リポジトリ名を入力して、作成を選択してみましょう。  
 すると、GitHubの生成されたリポジトリURLが表示されます。  
-![レポジトリの作成に成功しました](images/s12_fork_repo_modal_success.png)
+![レポジトリの作成に成功しました](images/fork_repo_modal_success.png)
 表示されたURLをクリックすると、生成されたGitHubのページにジャンプすることが出来ます。
 
 ### 3-3. ファイルの編集
