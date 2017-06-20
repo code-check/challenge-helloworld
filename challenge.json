@@ -1,11 +1,33 @@
 {
   "editable": [
-    "app/*",
-    "answer.md"
+    ".gitignore",
+    "package.json",
+    "answer.md",
+    "codecheck.yml"
+  ],
+  "ignores": [
+    "main.*",
+    "INSPECTION*",
+    ".github/*",
+    "*eslint*",
+    "images/nonessential*"
   ],
   "excludes": [
-    ".gitignore",
+    "*secret*",
     "challenge.json"
   ],
+  "cli": [
+    "C/C++",
+    "C#",
+    "Go",
+    "Java",
+    "NodeJS",
+    "PHP",
+    "Python",
+    "Python3",
+    "Ruby",
+    "Scala"
+  ],
+  "allowNewFile": true,
   "test": "mocha"
 }
