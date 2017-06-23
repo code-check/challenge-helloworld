@@ -6,8 +6,12 @@ function hello(name) {
   //ここにHelloworldを実装します。
   //return "Hello World!";
   //BEGIN_CHALLENGE
-  return "Hello "+name+"!";
+  if (name) {
+  	return "Hello "+name+"!";
+  } else {
+  	return "Hello!";
+  }
   //END_CHALLENGE
 }
 
-module.exports = hello;
+console.log(hello(process.argv[2]));

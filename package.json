@@ -2,24 +2,10 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/code-check/challenge-helloworld.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/code-check/challenge-helloworld/issues"
-  },
-  "homepage": "https://github.com/code-check/challenge-helloworld#readme",
+  "author": "Givery",
   "dependencies": {
-    "chai": "^3.2.0"
+    "codecheck": "^0.6.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0"
   }
 }
