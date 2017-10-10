@@ -203,6 +203,6 @@ APIキーや認証トークンなど、**秘匿する必要のある変数は、
 2. そのボタンをクリックすると、「環境変数の設定」という項目が表示されます。  
  ![triangle_dropdown](https://user-images.githubusercontent.com/7766684/31326777-49570ec4-ad05-11e7-914c-d61b245109dd.png)
 
-3. 「環境変数の設定」をクリックし、任意の命名でAPIキーを環境変数として設定ください。  
+3. 「環境変数の設定」をクリックし、任意の命名でAPIキー等の環境変数を設定ください。  
  ![env_modal_sm](https://user-images.githubusercontent.com/7766684/31326778-4b594944-ad05-11e7-949d-b96019e7bc87.png)
 
