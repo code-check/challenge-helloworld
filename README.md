@@ -35,7 +35,7 @@ Webエディタをひらいたら、[こちらのリンク](test/basic.js)をク
 ```
 ザ・ミッション:
 今回は"World"が入力された時、"Hello World!"と返し、  
-"codecheck"の場合は、"Hello codecheck!"と返すような関数を実装をします。
+"codecheck"の場合は、"Hello codecheck!"と返すような関数を実装してください。
 ```
 
 ### 2-3. ファイルの編集
