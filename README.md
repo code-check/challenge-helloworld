@@ -34,8 +34,13 @@ Webエディタをひらいたら、[こちらのリンク](test/basic.js)をク
 
 ```
 ザ・ミッション:
-今回は"World"が入力された時、"Hello World!"と返し、  
-"codecheck"の場合は、"Hello codecheck!"と返すような関数を実装してください。
+ある任意の文字列 [string] が入力されたとき、
+"Hello [string]!"
+と返すような関数を実装してください。
+
+例えば、"World"が入力された時、"Hello World!"と返し、  
+"codecheck"の場合は、"Hello codecheck!"と返します。
+
 ```
 
 ### 2-3. ファイルの編集
@@ -59,16 +64,23 @@ Webエディタ上のファイルを編集してみましょう。
 クリックすると、テストコードが実行されます。少々時間がかかりますが、最後に
 
 ```
-codecheck: Finish 'npm install with code 0
-1..2
-ok 1 helloWorld Hello World!
-# tests 2
-# pass 1
-# fail 1
-codecheck: Finish with code 1
-codecheck: tests  : 2
-codecheck: success: 1
-codecheck: failure: 1
+== Test outputs ==========
+1..3
+argv[0]: World
+not ok 1 CLIアプリは 'World'が与えられた場合に'Hello World!'と出力できる。
+argv[0]: 織田信長
+not ok 2 CLIアプリは '織田信長'が与えられた場合に'Hello 織田信長!'と出力できる。
+argv[0]: codecheck
+not ok 3 CLIアプリは 'codecheck'が与えられた場合に'Hello codecheck!'と出力でき
+
+# tests 3
+# pass 0
+# fail 3
+== Test result ==========
+Exit code: 3
+Number of test cases: 3
+Passed: 0
+Failed: 3
 ```
 
 と表示されれば問題なく実行されています。  
@@ -87,16 +99,24 @@ CLIの実装方法については[指定言語].md に記載されており、We
 もし、正しく解答ができた場合は、
 
 ```
-codecheck: Finish 'npm install with code 0
-1..2
-ok 1 helloWorld Hello World!
-# tests 2
-# pass 2
+== Test outputs ==========
+1..3
+Hello World!
+ok 1 CLIアプリは 'World'が与えられた場合に'Hello World!'と出力できる。
+Hello 織田信長!
+ok 2 CLIアプリは '織田信長'が与えられた場合に'Hello 織田信長!'と出力できる。
+Hello codecheck!
+ok 3 CLIアプリは 'codecheck'が与えられた場合に'Hello codecheck!'と出力できる。
+
+# tests 3
+# pass 3
 # fail 0
-codecheck: Finish with code 1
-codecheck: tests  : 2
-codecheck: success: 2
-codecheck: failure: 0
+== Test result ==========
+Exit code: 1
+Number of test cases: 3
+Passed: 3
+Failed: 0
+
 ```
 と表示がされます。このように、codecheckでは、テストコードを読みながら、正しく仕様を満たす実装を書くプラクティスをおこなうことが可能です。
 
