@@ -170,8 +170,8 @@ codecheck: tests  : 2
 codecheck: success: 2
 codecheck: failure: 0
 ```
-This way, you can check your answer by running test codes in the web editor, even if you are solving it with GitHub.
 
+In this way, you can check whether your answer is actually passing tests in the official codecheck environment, while solving the challenge locally.
 
 ## 4. Submit Challenge
 ### 4-1. Display answer.md and Comment
@@ -186,3 +186,22 @@ The contents of this file will be displayed to the organization that you are tak
 ### 4-2. Submit challenge
 Please be warned that you can no longer edit the files once you have submitted the challenge.  
 When you are ready, go back to the challenge detail page and click the "Submit" button.  
+
+---
+
+## 5. Notes
+### About Environment Variables
+
+We recommend that you **do not save sensitive information directly to github or the web editor.** This includes variables such as authentication tokens and API keys, which should never be made public.  
+
+We instead recommend you to use codecheck's Environment Variables feature.  
+With this feature you can add and use variables in your codecheck challenges without making them visible to anyone else. 
+
+1. On the exam page, there is a dropdown menu to the right of each challenge name:  
+  ![exam_challenge_list_masked_sm](https://user-images.githubusercontent.com/7766684/31326767-4145f402-ad05-11e7-8f38-fc55913a2776.png)
+
+2. Open the dropdown menu, and select "Set Env Vars".  
+ ![triangle_dropdown](https://user-images.githubusercontent.com/7766684/31326777-49570ec4-ad05-11e7-914c-d61b245109dd.png)
+
+3. Input an environment variable.  
+ ![env_modal_sm](https://user-images.githubusercontent.com/7766684/31326778-4b594944-ad05-11e7-949d-b96019e7bc87.png)
