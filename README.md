@@ -28,8 +28,8 @@ After the web editor finishes loading, click the below link in the web editor.
 Make sure the file you clicked is open in the editor.
 You can open specified files by clicking on their link or you can open a file from the project tree on the left menu of the editor.
 
-### 2-2. Confirm the requirements in the README
-In any challenge, the requirements of the challenge will be  introduced like this:
+### 2-2. Confirm the requirements
+In any challenge, the requirements of the challenge will be  introduced like this in the README:
 
 ```
 The Mission:
@@ -41,6 +41,8 @@ it would return "Hello [text]!"
 ### 2-3. Edit Files
 Let's now try editing files in the web editor.
 Open [answer.md](answer.md) and write your favorite programming language in the section titled `## Q1. Favorite Programming Language`.
+
+![answer.mdの編集](images/favorite_programming_lang.png)
 
 ### 2-4. Save Files
 Click the "Save" button after you have finish editing.
