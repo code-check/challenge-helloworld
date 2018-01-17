@@ -4,7 +4,7 @@ Welcome to codecheck!
 Let's learn how to use codecheck by taking this tutorial.
 First, click the green button to start the challenge.
 
-## 1. codecheckで「Hello world」を試してみよう
+## 1. Try making a "Hello World" function on codecheck
 
 ### 1-1.  Watch out for the "Deadline" and "Time Limit"!
 After opening a challenge, you will see the detail page of the challenge.
@@ -195,7 +195,7 @@ When you are ready, go back to the challenge detail page and click the "Submit" 
 We recommend that you **do not save sensitive information directly to github or the web editor.** This includes variables such as authentication tokens and API keys, which should never be made public.  
 
 We instead recommend you to use codecheck's Environment Variables feature.  
-With this feature you can add and use variables in your codecheck challenges without making them visible to anyone else. 
+With this feature you can add and use variables in your codecheck challenges without making them visible to anyone else.
 
 1. On the exam page, there is a dropdown menu to the right of each challenge name:  
   ![exam_challenge_list_masked_sm](https://user-images.githubusercontent.com/7766684/31326767-4145f402-ad05-11e7-8f38-fc55913a2776.png)
