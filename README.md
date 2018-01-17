@@ -1,20 +1,20 @@
 # Hello World
 
-Welcome to codecheck!
-Let's learn how to use codecheck by taking this tutorial.
+Welcome to codecheck!  
+Let's learn how to use codecheck by taking this tutorial.  
 First, click the green button to start the challenge.
 
 ## 1. Try making a "Hello World" function on codecheck
 
 ### 1-1.  Watch out for the "Deadline" and "Time Limit"!
-After opening a challenge, you will see the detail page of the challenge.
-On the detail page you will see the deadline and time limit.
+After opening a challenge, you will see the detail page of the challenge.  
+On the detail page you will see the deadline and time limit.  
 Keep in mind that you cannot submit your answer after the time expires!  
 ![制限時間の表示](images/time_limit.png)
 
 ### 1-2. Web Editor vs GitHub
 You can choose to solve the challenge in either our dedicated Web Editor,  
-or in your local environment via our Fork to Github feature.
+or in your local environment via our Fork to Github feature.  
 **First off, try clicking the "Open Web Editor" button located on the right side of the screen.**  
 !["Webエディタで開く"ボタン](images/open_challenge_buttons.png)
 
@@ -152,8 +152,8 @@ It should be updated with the submitted time.
 
 ### 3-5. Confirm in Web Editor
 Once you have saved your answer, open the Web Editor to check if it has been properly saved.
-Open [answer.md](answer.md) from the Web Editor.
-Confirm that the answer is updated by checking to see if the "Save" button becomes disabled.
+Open [answer.md](answer.md) from the Web Editor.  
+Confirm that the answer is updated by checking to see if the "Save" button becomes disabled.  
 **Keep in mind that once you start editing in GitHub, you can't edit and save the file from the Web Editor.**
 
 Click the "RUN" button.
@@ -196,7 +196,7 @@ When you are ready, go back to the challenge detail page and click the "Submit" 
 We recommend that you **do not save sensitive information directly to github or the web editor.** This includes variables such as authentication tokens and API keys, which should never be made public.  
 
 We instead recommend you to use codecheck's Environment Variables feature.  
-With this feature you can add and use variables in your codecheck challenges without making them visible to anyone else.
+With this feature, you can add and use variables in your codecheck challenges without making them visible to anyone else.
 
 1. On the exam page, there is a dropdown menu to the right of each challenge name:  
   ![exam_challenge_list_masked_sm](https://user-images.githubusercontent.com/7766684/31326767-4145f402-ad05-11e7-8f38-fc55913a2776.png)
