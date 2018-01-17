@@ -61,11 +61,11 @@ For example:
 == Test outputs ==========
 1..3
 argv[0]: World
-not ok 1 CLIアプリは 'World'が与えられた場合に'Hello World!'と出力できる。
-argv[0]: 織田信長
-not ok 2 CLIアプリは '織田信長'が与えられた場合に'Hello 織田信長!'と出力できる。
+not ok 1 CLI App outputs 'Hello World!' when given 'World' as an argument
 argv[0]: codecheck
-not ok 3 CLIアプリは 'codecheck'が与えられた場合に'Hello codecheck!'と出力できる。
+not ok 2 CLI App outputs 'Hello codecheck!' when given 'codecheck' as an argument.
+argv[0]: 織田信長
+not ok 3 CLI App outputs 'Hello 織田信長!' when given '織田信長' as an argument.
 
 # tests 3
 # pass 0
@@ -94,17 +94,16 @@ If solved correctly, running the project should display the result as shown belo
 == Test outputs ==========
 1..3
 Hello World!
-ok 1 CLIアプリは 'World'が与えられた場合に'Hello World!'と出力できる。
-Hello 織田信長!
-ok 2 CLIアプリは '織田信長'が与えられた場合に'Hello 織田信長!'と出力できる。
+ok 1 CLI App outputs 'Hello World!' when given 'World' as an argument
 Hello codecheck!
-ok 3 CLIアプリは 'codecheck'が与えられた場合に'Hello codecheck!'と出力できる。
-
+ok 2 CLI App outputs 'Hello codecheck!' when given 'codecheck' as an argument.
+Hello 織田信長!
+ok 3 CLI App outputs 'Hello 織田信長!' when given '織田信長' as an argument.
 # tests 3
 # pass 3
 # fail 0
 == Test result ==========
-Exit code: 1
+Exit code: 0
 Number of test cases: 3
 Passed: 3
 Failed: 0
