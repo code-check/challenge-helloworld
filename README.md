@@ -9,7 +9,7 @@ First, click the green button to start the challenge.
 ### 1-1.  Watch out for the "Deadline" and "Time Limit"!
 After opening a challenge, you will see the detail page of the challenge.
 On the detail page you will see the deadline and time limit.
-Keep in mind that you cannot submit your answer after the time expires!
+Keep in mind that you cannot submit your answer after the time expires!  
 ![制限時間の表示](images/time_limit.png)
 
 ### 1-2. Web Editor vs GitHub
@@ -52,7 +52,7 @@ Click the "Save" button after you have finish editing.
 Click "Continue" in the pop-up to continue editing in the editor.
 
 ### 2-5. Executing Tests
-You can run a unit test to verify that you have solved the challenge correctly.
+You can run a unit test to verify that you have solved the challenge correctly.  
 Click the "RUN" button in the middle of the editor to start running the test.
 You should see the result of the test displayed on the console.
 
@@ -80,7 +80,7 @@ Failed: 3
 In the above case, you have been able to solve 0 out of the 3 tests.
 
 ### 2-6. Solve the Challenge
-Currently the challenge is not solved.
+Currently the challenge is not solved.  
 Try to implement a function that would meet the requirements mentioned earlier in `The Mission`. Feel free to refer to the tests in [basic.js](test/basic.js).
 
 Build the solution as a CLI application that processes command line arguments and returns the expected output to `stdout`.  
@@ -112,7 +112,7 @@ Failed: 0
 ### 2-7. Save Frequently
 **Please save frequently** while solving.
 If you do not save when working on your code,  
-your changes may be lost and will not be scored.
+your changes may be lost and will not be scored.  
 ![Saveボタン](images/save-button.png)
 
 ---
